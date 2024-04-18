@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sathya's Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ac42c3b1f7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-black fixed-top">
+        <div class="container d-flex flex-row">
+                <h1 class="header">Portfolio</h1>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ml-auto">
+                        <a class="nav-link active" id="navItem1" href="#homeContainer">
+                            Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                        <a class="nav-link" href="#aboutSection" id="navItem2">About</a>
+                        <a class="nav-link" href="#skillsPage" id="navItem3">Skills</a>
+                        <a class="nav-link" href="#servicesPage" id="navItem4">Services</a>
+                        <a class="nav-link" href="#contactUs" id="navItem5">Contact</a>
+                    </div>
+                </div>
+            </div>
+    </nav>
+    <div class="home-container" id="homeContainer">
+        <div class="details-container">
+            <h1 class="name">Hello, I am <br />
+                <span class="name">Sathya Thangaraj</span>
+            </h1>
+            <h1 class="profession">I am a
+                <span class="me">Full Stack Developer</span>
+            </h1>
+            <p class="detail">Building Bridges Between Front-End and Back-End, Transforming Ideas into Web Reality</p>
+            <div class="web-links">
+                <a href="https://www.linkedin.com/in/sathya-thangaraj-fullstackdeveloper" target="_blank">
+                    <button type="button" class="linkedin" id="button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                        </svg>
+                    </button>
+                </a>
+                <a href="https://github.com/sathyathangaraj1099">
+                    <button type="button" class="github" id="button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                        </svg>
+                    </button>
+                </a>
+                <a href="#">
+                    <button type="button" class="mail" id="button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-at-fill" viewBox="0 0 16 16">
+                            <path d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2zm-2 9.8V4.698l5.803 3.546zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.5 4.5 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586zM16 9.671V4.697l-5.803 3.546.338.208A4.5 4.5 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671" />
+                            <path d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791" />
+                        </svg>
+                    </button>
+                </a>
+            </div>
+                    <button type="button" class="resume"><a href="./SathyaT_Resume.pdf" download class="resume">Download</a></button> 
+                     
+        </div>
+        <img class="image" src="https://res.cloudinary.com/degrzuz7w/image/upload/v1710656631/159-4_2_zb0xwe.jpg" alt="image" />
+    </div>
+
+    <div class="about-section" id="aboutSection">
+        <h1 class="name">About <span class="me">Me</span></h1>
+        <p class="about-myself">I’m a Full Stack Developer with a strong foundation in HTML, CSS, JavaScript, Bootstrap,
+            SQL, Node.js, Express.js, ReactJS, and Figma. I’m passionate about using these skills to develop innovative web applications that are user-friendly. I’m always eager to learn more about web development and marketing. I enjoy the challenge of coding and solving real-world problems. Currently, I’m looking for opportunities to join a team that values innovation and shares my enthusiasm for technology.</p>
+    </div>
+    <div class="skills-page" id="skillsPage">
+        <h1 class="name text-center">Technical <span class="me">Skills</span></h1>
+        <div class="skills-section">
+            <img id="skills" class="html" src="https://res.cloudinary.com/degrzuz7w/image/upload/v1710663593/210-2104705_html-logo-png-transparent-background_uo1l4n.png" alt="html" />
+            <img id="skills" class="css" src="https://res.cloudinary.com/degrzuz7w/image/upload/v1710663636/css-logo.png_oci4xn.png" alt="css" />
+            <img id="skills" class="bootstrap" src="https://res.cloudinary.com/degrzuz7w/image/upload/v1710663678/4623140_bpyhfi.webp" alt="bootstrap" />
+            <img id="skills" class="js" src="https://res.cloudinary.com/degrzuz7w/image/upload/v1710663653/171-1718046_javascript-programming-language-logo-hd-png-download_vkqnre.png" alt="js" />
+            <img id="skills" class="react" src="https://res.cloudinary.com/degrzuz7w/image/upload/v1710663868/usmnRVaz_w7jwvl.jpg" alt="react" />
+            <img id="skills" class="python" src="https://res.cloudinary.com/degrzuz7w/image/upload/v1710663732/Python-Transparent-Background_wovcqi.png" alt="python" />
+            <img id="skills" class="sql" src="https://res.cloudinary.com/degrzuz7w/image/upload/v1710663796/th_1_tfxtiz.jpg" alt="sql" />
+            <img id="skills" class="node" src="https://res.cloudinary.com/degrzuz7w/image/upload/v1710663754/383-3839776_node-js-icon-png_tfdfrm.jpg" alt="node" />
+            <img id="skills" class="express" src="https://res.cloudinary.com/degrzuz7w/image/upload/v1710663707/1986f2b7_zfr8o5.webp" alt="express" />
+            <img id="skills" class="angular" src="https://res.cloudinary.com/degrzuz7w/image/upload/v1710663954/3910951_nhgo5n.png" alt="angular" />
+        </div>
+    </div>
+
+    <div class="services-page mb-5" id="servicesPage">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="name mb-5 text-center">My <span class="me">Services</span></h1>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="shadow p-3 service">
+                        <svg id="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-code-slash mb-3" viewBox="0 0 16 16">
+                            <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0m6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0" />
+                        </svg>
+                        <h1 class="web mb-3">Web Development</h1>
+                        <p class="description">As a web developer, I create dynamic and functional websites using a
+                            combination of front-end and back-end technologies. I specialize in building responsive, user-friendly
+                            interfaces that enhance the user experience.
+                            Whether it’s an e-commerce site, a blog, or a custom web application, I bring ideas to life through code.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="shadow p-3 service">
+                        <svg id="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-code-slash mb-3" viewBox="0 0 16 16">
+                            <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0m6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0" />
+                        </svg>
+                        <h1 class="ui mb-3">UI Development</h1>
+                        <p class="description">UI (User Interface) development focuses on creating the visual
+                            elements of a website or application. I specialize in turning design mockups into interactive interfaces using HTML, CSS, and JavaScript. My goal is to ensure that users have a
+                            seamless and enjoyable experience while interacting with your product.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="shadow p-3 service">
+                        <svg id="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-palette-fill mb-3" viewBox="0 0 16 16">
+                            <path d="M12.433 10.07C14.133 10.585 16 11.15 16 8a8 8 0 1 0-8 8c1.996 0 1.826-1.504 1.649-3.08-.124-1.101-.252-2.237.351-2.92.465-.527 1.42-.237 2.433.07M8 5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m4.5 3a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3M5 6.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m.5 6.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3" />
+                        </svg>
+                        <h1 class="ui-design mb-4">UI Development</h1>
+                        <p class="description">
+                            UI design is all about aesthetics and usability. As a UI designer, I craft visually
+                            appealing layouts, choose color schemes, and create intuitive navigation. I pay attention to details like typography, spacing, and consistency.
+                            My designs aim to enhance the overall look and feel of your digital product.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="projects-container p-3 m-3" id="projectSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 heading-project">
+                    <h1 class="name mt-5 text-center">My <span class="me">Projects</span></h1>
+                </div>
+                <div class="project-1 col-12 col-md-12 col-lg-3 col-xl-3 m-3 text-center">
+                    <a href="https://sathfoodmunch.ccbp.tech" target="_blank">
+                        <p>click</p>
+                    </a>
+                </div>
+                <div class="project-2 col-12 col-md-12 col-lg-3 col-xl-3 m-3 text-center">
+                    <a href="https://sanxttzcart.ccbp.tech" target="_blank">
+                        <p>click</p>
+                    </a>
+                </div>
+                <div class="project-3 col-12 col-md-12 col-lg-3 col-xl-3 m-3">
+                    <a href="https://samusicplay.ccbp.tech" target="_blank">
+
+                    </a>
+                </div>
+                <div class="project-4 col-12 col-md-12 col-lg-3 col-xl-3 m-3">
+                    <a href="https://sarockpprscisr.ccbp.tech" target="_blank">
+                    </a>
+                </div>
+                <div class="project-5 col-12 col-md-12 col-lg-3 col-xl-3 m-3">
+                    <a href="https://sacowindb.ccbp.tech" target="_blank">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container" id="contactUs">
+        <div class="row">
+            <form action="https://api.web3forms.com/submit" method="POST" class="container">
+                <input type="hidden" name="access_key" value="81287307-bf6c-4a2e-9490-596d5eea6370" />
+            <div class="text-center col-12">
+                <h1 class="contact">Contact Us</h1>
+                <h4 class="msg">I'd love to hear from you!</h4>
+            </div>
+        </div>
+        <div class="row input-container">
+            <div class="col-xs-12">
+                <div class="styled-input wide">
+                    <input type="text" name="name" required />
+                    <label>Name</label>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <div class="styled-input">
+                    <input type="email" name="email" required />
+                    <label>Email</label>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <div class="styled-input" style="float:right;">
+                    <input type="text" name="number" required />
+                    <label>Phone Number</label>
+                </div>
+            </div>
+            <div class="col-xs-12">
+                <div class="styled-input wide">
+                    <textarea name="message" required></textarea>
+                    <label>Enter Your Message Here...</label>
+                </div>
+            </div>
+            <div class="col-xs-12">
+                <input type="submit" class="btn-lrg submit-btn" />
+            </div>
+        </div>
+    </form>
+    </div>
+</body>
+</html>
